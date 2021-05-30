@@ -1,0 +1,241 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+.my_menu{
+        position: absolute;
+        width: 100%;
+        height: auto;  
+        background-color: dodgerblue;      
+}
+
+.menu li{
+    list-style: none;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(34, 136, 238);
+    margin-left: 19px; 
+    text-align: center;
+    line-height: 50px;
+    float: left; 
+}
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.menu li:hover{
+    background-color: rgb(0, 0, 0);
+}
+.menu li a:hover{
+    color: aqua;
+}
+.logo{
+    width: 100px;
+}
+.logo_li:hover{
+   
+    background-color:  dodgerblue !important;
+}
+.logo_li a:hover{
+   
+   color: white!important;
+}
+.logo_li a{
+    font-size: 25px;
+    background-color: orangered;
+}
+.menu ul li{
+    margin: 0px;
+}
+.menu ul {
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+#banner{
+      width:100%;
+}
+#banner img{
+    margin-top: 50px;
+    width: 100%;
+    height: 650px;
+
+}
+#welcome{
+    width: 100%;
+    text-align: center;
+}
+#welcome h1{
+    margin: 0 auto;
+    width: 600px;
+    font-size: 55px;
+    color:rgb(0, 62, 248) ;
+    border-bottom: 2px solid rgb(23, 57, 161);
+    letter-spacing: 15px;
+    font-weight: 5000;
+}
+.div_section1{
+    width: 15.9%;
+    height: 450px;
+    margin: 160px;
+    border: 1.5px solid gray;
+    float: left;
+}
+.icon{
+    width: 90px;
+    height: 90px;
+    border: 1px solid gray;
+    margin: 20px auto;
+    line-height: 90px;
+    font-size: 45px;
+    background-color: rgb(255, 0, 51);
+    color: black;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+.icon:hover{
+    font-size: 30px;
+}
+.fontsvision{
+    font-size: 19px;
+    font: bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fontsmission{
+    font-size: 15px;
+    float: center;
+    font: bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#section21{
+    width: 100%;
+    text-align: center;
+}
+#section21 h1{
+    margin: auto;
+    width: 400px;
+    font-size: 40px;
+    color:rgb(11, 65, 224) ;
+    border-bottom: 2px solid rgb(23, 57, 161);
+}
+.div_section2{
+    width: 30%;
+    height: 300px;
+    margin: 25px;
+    border: 1.5px solid gray;
+    float: left;
+    font-size: 9px;
+}
+.div_section2 img{
+    width: 99%;
+    height: 50%;
+    border: 1px solid gray;
+    transition-duration: 0.3s;
+}
+.div_section2 img:hover{
+width: 95%;
+height: 45%;
+}
+.cm1{
+    font-size: 16px;
+    font: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.if{
+    font-size: 16px;
+    font: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.me{
+    font-size: 16.2px;
+    font: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer1{
+    width: 20%;
+    height: auto;
+    margin: 30px;
+    float: left;
+}
+.section07{
+    width: 100%;
+   height: 200px;
+    background-color: black;
+    float: left;
+}
+.section07_div{
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    float: left;
+}
+.section07_div h1{
+    text-align: left;
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section07_div p{
+    color:white;
+    font-size: 10px;
+    
+}
+.section07_div button{
+    background-color: rgb(255, 0, 0);
+    border: black;
+    width: 100px;
+    height: 20px;
+
+}
+.section07_div button:hover{
+    width: 101px;
+    font-size: 14px;
+}
+.section07_div ul li{
+    list-style: none;
+}
+.section07_div ul li a{
+    color: white;
+    font-size: 18px;
+   font-weight:bold ;
+}
+.sociallinksgp{
+    color: white;
+}
+.underfooter{
+
+}
+.library{
+    color: white;
+    font-size: 14px;
+    font: bold;
+}
+.contactinfo{
+    color: white;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.underfooter{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 60px;
+}
+.underfooter1{
+    float: left; 
+    font-size: 18px;
+}
+.underfooter2{
+    float: right;
+    font-size: 20px;
+}
+
+
